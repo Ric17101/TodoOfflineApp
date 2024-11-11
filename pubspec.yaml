@@ -1,0 +1,32 @@
+name: expense_tracker_app
+description: "A flutter app that can be used to manage your tasks or todos offline"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  async_redux: ^24.0.2
+  cupertino_icons: ^1.0.8
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  json_serializable: ^6.6.1
+  path_provider: ^2.1.5
+  flutter_slidable: ^3.1.1
+  universal_html: ^2.2.4
+  rename: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
