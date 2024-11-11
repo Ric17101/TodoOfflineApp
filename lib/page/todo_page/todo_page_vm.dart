@@ -1,9 +1,9 @@
 import 'package:async_redux/async_redux.dart';
-import 'package:expense_tracker_app/page/todo_page/todo_page.dart';
-import 'package:expense_tracker_app/state/action/actions.dart';
-import 'package:expense_tracker_app/state/app_state.dart';
-import 'package:expense_tracker_app/state/async_result.dart';
-import 'package:expense_tracker_app/state/todo/todo_item_ui.dart';
+import 'package:todo_offline_app/page/todo_page/todo_page.dart';
+import 'package:todo_offline_app/state/action/actions.dart';
+import 'package:todo_offline_app/state/app_state.dart';
+import 'package:todo_offline_app/state/async_result.dart';
+import 'package:todo_offline_app/state/todo/todo_item_ui.dart';
 
 class TodoPageVmFactory extends VmFactory<AppState, TodoPage, TodoPageVm> {
   @override

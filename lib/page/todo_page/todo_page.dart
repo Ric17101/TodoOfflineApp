@@ -1,6 +1,6 @@
-import 'package:expense_tracker_app/page/widget/todo_item_widget.dart';
-import 'package:expense_tracker_app/state/async_result.dart';
-import 'package:expense_tracker_app/state/todo/todo_item_ui.dart';
+import 'package:todo_offline_app/page/widget/todo_item_widget.dart';
+import 'package:todo_offline_app/state/async_result.dart';
+import 'package:todo_offline_app/state/todo/todo_item_ui.dart';
 import 'package:flutter/material.dart';
 
 class TodoPage extends StatefulWidget {

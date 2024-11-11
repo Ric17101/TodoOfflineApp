@@ -1,6 +1,6 @@
-# expense_tracker_app
+# todo_offline_app
 
-A flutter app that can be used to Track your budget or expenses Offline
+A flutter app that can be used to manage your tasks or todos offline
 
 ## Getting Started
 

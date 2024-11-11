@@ -1,4 +1,4 @@
-name: expense_tracker_app
+name: todo_offline_app
 description: "A flutter app that can be used to manage your tasks or todos offline"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -19,7 +19,6 @@ dependencies:
   path_provider: ^2.1.5
   flutter_slidable: ^3.1.1
   universal_html: ^2.2.4
-  rename: ^3.0.2
 
 dev_dependencies:
   flutter_test:

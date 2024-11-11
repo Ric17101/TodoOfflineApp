@@ -1,6 +1,6 @@
 import 'package:async_redux/async_redux.dart';
-import 'package:expense_tracker_app/api/models/todo_item.dart';
-import 'package:expense_tracker_app/state/app_state.dart';
+import 'package:todo_offline_app/api/models/todo_item.dart';
+import 'package:todo_offline_app/state/app_state.dart';
 import 'package:flutter/foundation.dart';
 
 /// Reusable loading page state for request action
@@ -10,7 +10,7 @@ abstract class LoadingAction extends ReduxAction<AppState> {
   final String actionKey;
 
   @override
-  Future<void> before() async => await dispatchAsync(WaitAction.add(actionKey));
+  Future<void> before() async => await dispatchAndWait(WaitAction.add(actionKey));
 
   @override
   void after() => dispatch(WaitAction.remove(actionKey));

@@ -1,11 +1,11 @@
 {
-    "name": "expense_tracker_app",
-    "short_name": "expense_tracker_app",
+    "name": "todo_offline_app",
+    "short_name": "todo_offline_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A flutter app that can be used to Track your budget or expenses",
+    "description": "A flutter app that can be used to manage your tasks or todos offline",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

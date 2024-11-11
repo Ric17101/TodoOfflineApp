@@ -1,8 +1,8 @@
 import 'package:async_redux/async_redux.dart';
-import 'package:expense_tracker_app/page/todo_page/todo_page.dart';
-import 'package:expense_tracker_app/page/todo_page/todo_page_vm.dart';
-import 'package:expense_tracker_app/state/action/actions.dart';
-import 'package:expense_tracker_app/state/app_state.dart';
+import 'package:todo_offline_app/page/todo_page/todo_page.dart';
+import 'package:todo_offline_app/page/todo_page/todo_page_vm.dart';
+import 'package:todo_offline_app/state/action/actions.dart';
+import 'package:todo_offline_app/state/app_state.dart';
 import 'package:flutter/material.dart';
 
 class TodoPageConnector extends StatelessWidget {

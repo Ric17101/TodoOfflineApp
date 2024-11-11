@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:async_redux/async_redux.dart';
-import 'package:expense_tracker_app/expense_tracker.dart';
-import 'package:expense_tracker_app/persist/persistor.dart';
-import 'package:expense_tracker_app/persist/storage_engine_io.dart';
-import 'package:expense_tracker_app/persist/storage_engine_web.dart';
-import 'package:expense_tracker_app/state/app_state.dart';
+import 'package:todo_offline_app/todo_app.dart';
+import 'package:todo_offline_app/persist/persistor.dart';
+import 'package:todo_offline_app/persist/storage_engine_io.dart';
+import 'package:todo_offline_app/persist/storage_engine_web.dart';
+import 'package:todo_offline_app/state/app_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 

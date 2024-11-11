@@ -1,6 +1,6 @@
 import 'package:async_redux/async_redux.dart';
-import 'package:expense_tracker_app/persist/persistor.dart';
-import 'package:expense_tracker_app/api/models/todo_item.dart';
+import 'package:todo_offline_app/persist/persistor.dart';
+import 'package:todo_offline_app/api/models/todo_item.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'app_state.freezed.dart';
@@ -10,7 +10,7 @@ part 'app_state.g.dart';
 @freezed
 class AppState with _$AppState {
   factory AppState({
-    @Default(Wait.empty) @JsonKey(name: 'wait', ignore: true) Wait wait,
+    @Default(Wait.empty) @JsonKey(name: 'wait', includeFromJson: false) Wait wait,
     @Default("") String test,
     @Default(<TodoItem>[]) List<TodoItem> todoList,
   }) = _AppState;

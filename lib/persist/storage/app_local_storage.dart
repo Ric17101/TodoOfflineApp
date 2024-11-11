@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:expense_tracker_app/persist/storage/local_storage.dart';
+import 'package:todo_offline_app/persist/storage/local_storage.dart';
 import 'package:path_provider/path_provider.dart';
 
 class AppLocalStorage extends LocalStorage {
